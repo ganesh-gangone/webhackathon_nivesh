@@ -1,0 +1,495 @@
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.body{
+    height:70%;
+}
+.foot{
+    display: flex;
+    background-color:black;
+    color:aliceblue;
+    width: auto;
+    height: 80vh;
+    
+    
+
+}
+.flex12,.flex34
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.foot1{
+   
+    padding: 15px;
+    background-color:black;
+    width:220PX;
+    height: 30vh;
+    margin: 40px;
+    border-radius: solid 2px;
+    border-radius: 20px;
+
+
+}
+.foot2{
+    
+    padding: 15px;
+    background-color: black;
+    width:220px;
+    height: 30vh;
+    margin: 40px;
+    border-radius: solid 2px;
+    border-radius: 20px;
+
+}
+.foot3{
+    
+    padding: 15px;
+    background-color: black;
+    width:220px;
+    height: 30vh;
+    margin: 40px;
+    border-radius: solid 2px;
+    border-radius: 20px;
+}
+.foot4{
+    
+    padding: 15px;
+    background-color: black;
+    width:220px;
+    height: 30vh;
+    margin: 40px;
+    border-radius: solid 2px;
+    border-radius: 20px;
+}
+.foot1 ,.foot2,.foot3,.foot4{
+    color: aliceblue;
+    height: 400px;
+    background-color: black;
+    font-family: cursive;
+}
+
+
+
+.navback{
+    background-color: black;
+}
+
+
+
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 20%;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:black;
+}
+.navbar{
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;
+   background-color: black;
+
+}
+.burger{
+    position: absolute;
+    display: none;
+    top: 15px;
+    right: 5%;
+    cursor: pointer;
+    }
+    .line{
+        width: 33px;
+        margin: 5px 5px;
+        background-color: white;
+        height: 4px;
+    }
+.background{
+    background: rgb(76 76 76 / 70%) url("coffee.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.nav-list{
+width: 100%;
+display: flex;
+align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    padding-left: 40px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: rgb(218, 148, 10) ;
+    font-weight: bold;
+}
+.im
+{
+    background-image: url("contact1.jpg") ;
+    background-size: cover;
+    height: 75vh;
+      
+}
+.he1
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 300px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:50px;
+    
+}
+
+.namebox1,.mailbox1,.messagebox1
+{
+    padding: 20px;
+    margin: 10px;
+    border-radius: solid 2px;
+    border-radius:3px;
+    border-width: 2px;
+    width: 90%;
+    background-color: rgb(246, 245, 226);
+}
+.namebox1:hover{
+    background-color: lightgray ;
+    color: white;
+    font-size: 20px;
+    text-transform: cursive;
+    cursor: pointer;
+}
+.mailbox1:hover{
+    background-color: lightgray;
+    color: white;
+    font-size: 20px;
+    text-transform: cursive;
+    cursor: pointer;
+}
+.messagebox1:hover{
+    background-color: lightgray;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    text-transform: cursive;
+    cursor: pointer;
+}
+.cimg{
+    width: 400px;
+    height: 270px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    border-radius:5px;
+}
+.messagebox1{
+    height:110px;
+}
+.flex1,.flex2
+{
+    width: 50;
+    font-style: cursive;
+    font-family: cursive;
+    padding: 20px;
+}
+.bttn{
+    text-align: right;
+}
+
+.btn{
+    
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(10, 49, 49);
+    border-radius: solid;
+    border-radius: 5px;
+    align-items: right;
+    
+
+}
+.btn:hover
+{
+    background-color: azure;
+    color: black;
+    font-family: cursive ;
+}
+
+.flex{
+    padding: 20px;
+    margin: 10px;
+    display: flex; 
+}
+.map
+{
+    height:300px;
+    border-radius: solid;
+    border-radius: 15px;
+}
+.box1{
+display: flex;
+padding: 10px;
+margin:10px;
+}
+.phone,.mail{
+   padding: 1px;
+   margin: 20px;
+   display:flex;
+}
+.ph1{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.pho{
+    display: flex;
+
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.em1{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+
+
+
+.ema{
+    display: flex;
+    
+}
+.mail{
+    flex-direction: column;
+}
+
+.link
+{
+    text-decoration: none;
+    color: black;
+}
+.link:hover
+{
+    
+    color: rgb(195, 0, 0);
+}
+
+
+
+@media only  screen and (max-width:800px){
+    .flex{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .logo img{
+        width: 103%;
+
+    }
+    .im{
+        width: 100vw;
+    }
+    .he1{
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    .map{
+  height: 150px;
+  width: 300px;
+    }
+    .btn{
+        width: 80px;
+    }
+    .nav-list{
+        flex-direction: column;
+        }
+        .navbar{
+         flex-direction: column;
+         transition: all 0.7s ease-out;
+         height: 447px;
+        }
+        .burger{
+            display: block;
+        }
+        .h-nav{
+            height: 68px;
+        }
+        .v-class{
+            opacity: 0;
+        }
+
+
+
+        .foot
+    {
+        display:flex;
+        flex-direction: column;
+        height :auto ;
+        background-color: black;
+    }
+    
+
+    .foot1, .foot2, .foot3, .foot4 {
+        height: auto;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+}
+
+
+
+@media only  screen and (max-width:1287px)
+{
+    .foot
+    {
+        display:flex;
+        flex-direction: column;
+        height :auto ;
+        background-color: black;
+    }
+
+    .map{
+        width: auto;
+        height:300px;
+
+     }
+
+
+
+    .flex12,.flex34
+    {
+        display:flex;
+        flex-direction:row;
+
+    }
+    
+
+    .foot1, .foot2, .foot3, .foot4 {
+        height: auto;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+
+}
+
+@media only  screen and (max-width: 550px)
+{
+    .foot
+    {
+        display:flex;
+        flex-direction: column;
+        height :auto ;
+        background-color: black;
+    }
+    .flex12,.flex34
+    {
+        display:flex;
+        flex-direction: column;
+
+
+    }
+    
+
+    .foot1, .foot2, .foot3, .foot4 {
+        height: auto;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+     .map{
+        width: auto;
+        height:300px;
+
+     }
+
+}
+/* footer*/
+.footerr{
+    background: black;
+    background-size: cover;
+    height: 40px ;
+    width: auto;
+    
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+}
+.fo{
+    color: gray;
+   
+    text-align: center;
+    top: 50%;
+    font-size: 20px;
+}
+.fot
+{
+    height: 20px;
+    text-align: left;
+}
+
+@media only  screen and (max-width: 461px)
+{
+    .map{
+        float: left;
+        width: 300px;
+        justify-items: left;
+        
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only  screen and (max-width: 371px)
+{
+    .map{
+        float: left;
+        width: 150px;
+        height: 150px;
+        justify-items: left;
+        
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+}
