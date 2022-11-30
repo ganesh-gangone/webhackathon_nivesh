@@ -1,13 +1,50 @@
-.backgroundnews {
-    background: rgb(218, 197, 197) url(photo.jpg);
-    background-size: cover;
-    height: 60vh;
-    text-align: center;
-    padding-top: 160px;
-    background-blend-mode: darken;
 
+.background{
+    background: rgb(76 76 76 / 70%) url(photo.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
 }
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 85%;
+    margin-left: 10%;
+    height: 80%;
+    text-align: center;
+}
+.firstsection{
+    height: 70vh;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+.text-small1{
+    font-size: 23px;
+    font-family: monospace;
+    font-style: italic;
+    }
 
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 85%;
+    margin-left: 10%;
+    height: 80%;
+    text-align: center;
+}
+.firstsection{
+    height: 70vh;
+}
 .h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
