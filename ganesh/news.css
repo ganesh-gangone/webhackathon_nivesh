@@ -394,4 +394,16 @@
         margin-top: 10px;
     }
 }
+.text-small{
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: ui-sans-serif;
+
+}
+.text-big{
+    font-size: 27px;
+    font-family: cursive;
+    font-style: italic;
+    }
 
