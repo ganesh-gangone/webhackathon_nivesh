@@ -1,6 +1,6 @@
 
 .background{
-    background: rgb(76 76 76 / 70%) url(photo.jpg);
+        background:rgb(76 76 76 / 70%)url(photo.jpg);
         background-size: cover;
         background-blend-mode: darken;
 }
@@ -16,7 +16,7 @@
     text-align: center;
 }
 .firstsection{
-    height: 70vh;
+    height: 80vh;
 }
 .firsthalf{
     width: 80%;

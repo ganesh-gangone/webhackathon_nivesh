@@ -110,6 +110,9 @@ align-items: center;
             .logo img{
                 width: 103%;
             }
+            .menu-head{
+                font-size: 28px;
+            }
             .section2{
                 display: flex;
                 flex-direction: column;
