@@ -1,6 +1,6 @@
 
 .background{
-        background:rgb(76 76 76 / 70%)url(photo.jpg);
+        background:rgb(76 76 76 / 70%)url("assets/photo.jpg");
         background-size: cover;
         background-blend-mode: darken;
 }

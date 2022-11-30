@@ -20,7 +20,7 @@ body{
 
 
 .background{
-    background: rgb(76 76 76 / 70%) url("img/coffeeimgf.avif");
+    background: rgb(76 76 76 / 70%) url("assets/coffeeimgf.avif");
         background-size: cover;
         background-blend-mode: darken;
 }

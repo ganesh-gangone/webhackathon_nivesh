@@ -19,7 +19,7 @@ body{
 }
 
 .background{
-    background: rgb(76 76 76 / 70%) url("img/coffeefirst.jpg");
+    background: rgb(76 76 76 / 70%) url("assets/coffeefirst.jpg");
         background-size: cover;
         background-blend-mode: darken;
 }
@@ -121,7 +121,7 @@ color: white;
 padding: 6px;
 }
 .inbox1{
- background: rgb(78, 78, 78) url("img/firstbg.png");
+ background: rgb(78, 78, 78) url("assets/firstbg.png");
  background-blend-mode: darken;
  background-size: cover;
  padding: 30px;

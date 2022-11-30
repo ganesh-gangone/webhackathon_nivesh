@@ -147,7 +147,7 @@ align-items: center;
 }
 .im
 {
-    background: rgb(76 76 76 / 70%) url("contact1.jpg") ;
+    background: rgb(76 76 76 / 70%) url("assets/contact1.jpg") ;
     background-size: cover;
     height: 75vh;
     background-blend-mode: darken;
