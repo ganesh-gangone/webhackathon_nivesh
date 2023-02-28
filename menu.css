@@ -51,6 +51,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 380px;
 }
 .logo img{
     width: 20%;
@@ -159,10 +160,11 @@ align-items: center;
 .menubtn{
     background-color: rgb(255, 226, 110);
     padding: 10px;
-    color: black;
+    color: #333;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 13px;
     border-width: 0px;
+    transition: all 0.5s ease-in-out;
 }
 .menubtn:hover{
     background-color: black;
